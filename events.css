@@ -103,14 +103,10 @@ ul {
  margin: 0px;
  }
 
-#feature1, #feature2, #feature3 {
- float: left;
- width: 320px;
+#event1, #event2, #event3 {
+ float: top;
+ width: 300px;
  
- }
-
-#banner img {
- width: 100%;
  }
 
 #footer {
