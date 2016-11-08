@@ -102,9 +102,9 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-#banner {
+#img {
   clear: both;
-  background-image: url("../img/ibiza.jpg");
+  background-image: url("http://image.slidesharecdn.com/internetppt-140623104336-phpapp02/95/internet-ppt-1-638.jpg?cb=1403520813");
   height: 404px;
   background-size: cover;
   width: 960px;
@@ -116,6 +116,7 @@ ul {
   margin: 0px;
   padding: 0px;
   color: white;
+  text-align: center;
 
 }
 #header {
