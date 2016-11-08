@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background-color: #fff9e9;
+    background-color: #2A363B;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -106,6 +106,7 @@ ul {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  color: white; 
 }
 #header {
   background-color:red;
@@ -113,7 +114,7 @@ ul {
   line-height: 70px;
 }
 #menu {
-  background-color:#2f2000;
+  background-color:#99B898;
   width: 593px;
   float: left;
   text-align: center;
@@ -123,7 +124,7 @@ ul {
 }
 
 #logo {
-  background-color: #DAA520;
+  background-color: #E84A5F;
   width: 367px;
   float: left;
   text-align: center;
@@ -139,7 +140,7 @@ ul {
 
 }
 #footer {
-  background-color: #2f2000;
+  background-color: #99B898;
   clear: both;
 }
 
