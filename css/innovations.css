@@ -134,16 +134,15 @@ ul {
   margin: 0px;
 }
 #innovation1, #innovation2, #innovation3 {
-  float: top;
-  width: 320px;
-  color: #000000;
-
+  float: 
+  width: 20px;
+  color: white;
+  font-size: 15px;
 }
 #footer {
   background-color: #99B898;
   clear: both;
 }
-
 
 
 
