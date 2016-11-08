@@ -74,6 +74,7 @@ fieldset {
 
 textarea {
     resize: vertical;
+
 }
 
 /* ==========================================================================
@@ -141,22 +142,7 @@ ul {
   padding: 0px;
   margin: 0px;
 }
-#homepagebutton {
-	background-color:#c77e45;
-	border-radius:28px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	padding:16px 31px;
-	
-}
-#homepagebutton:hover {
-	background-color:#bd472a;
-}
-#homepagebutton:active {
-	position:relative;
-	top:1px;
-}
+
 #feature1, #feature2, #feature3 {
   float: left;
   width: 320px;
