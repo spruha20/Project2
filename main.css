@@ -4,6 +4,10 @@ html {
  line-height: 1.4;
  }
 
+body{
+ background-color: #fff9e9;
+}
+
 ::selection {
  background: #b3d4fc;
  text-shadow: none;
@@ -69,6 +73,8 @@ ul {
  background-size: cover;
  width: 960px;
  background-repeat: no-repeat;
+ text-align: center;
+ color: #7a1306;
  }
 
 #banner h1 {
@@ -83,30 +89,54 @@ ul {
  }
 
 #menu {
- background-color:blue;
+
+ 
+ background-color:#2f2000;
  width: 593px;
  float: left;
+ text-align: center;
  }
+
  
 #menu a {
  color: white;
  }
 
 #logo {
- background-color: green;
+ background-color: #DAA520;
  width: 367px;
  float: left;
+ text-align: center;
  }
+
 
 #logo h1 {
  padding: 0px;
  margin: 0px;
  }
 
+#homepagebutton{
+ background-color:#c77e45;
+ border-radius:28px;
+ display:inline-block;
+ cursor:pointer;
+ color:#ffffff;
+ padding: 16px 31px;
+}
+
+#homepagebutton:hover {
+ background-color:#bd472a;
+}
+
+#homepagebutton:active {
+ position: relative;
+ top:1px;
+}
+
 #feature1, #feature2, #feature3 {
  float: left;
  width: 320px;
- 
+ color:#7a1306; 
  }
 
 #banner img {
@@ -114,7 +144,7 @@ ul {
  }
 
 #footer {
- background-color: orange;
+ background-color: #2f2000;
  clear: both;
  }
 
