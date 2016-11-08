@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background-color: #fff9e9;
+    background-color: #2A363B;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -116,6 +116,7 @@ ul {
 #banner h1 {
   margin: 0px;
   padding: 0px;
+  color: white;
   text-align: center; 
 }
 #header {
@@ -124,7 +125,7 @@ ul {
   line-height: 70px;
 }
 #menu {
-  background-color:#2f2000;
+  background-color:#99B898;
   width: 593px;
   float: left;
   text-align: center;
@@ -134,7 +135,7 @@ ul {
 }
 
 #logo {
-  background-color: #DAA520;
+  background-color: #E84A5F;
   width: 367px;
   float: left;
   text-align: center;
@@ -147,14 +148,14 @@ ul {
 #feature1, #feature2, #feature3 {
   float: left;
   width: 320px;
-  color: #7a1306;
+  color: white;
 
 }
 #banner img {
   width: 100%;
 }
 #footer {
-  background-color: #2f2000;
+  background-color: #99B898;
   clear: both;
 }
 
