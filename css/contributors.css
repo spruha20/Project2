@@ -103,16 +103,6 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-#banner {
-  clear: both;
-  background-image: url("../img/ibiza.jpg");
-  height: 404px;
-  background-size: cover;
-  width: 960px;
-  background-repeat: no-repeat;
-  text-align: center;
-  color: #7a1306;
-}
 #banner h1 {
   margin: 0px;
   padding: 0px;
@@ -145,15 +135,12 @@ ul {
   margin: 0px;
 }
 
-#feature1, #feature2, #feature3 {
-  float: left;
+#Info1, #image1, #image2, #contributors, #contributors2 {
+  float:
   width: 320px;
   color: white;
+}
 
-}
-#banner img {
-  width: 100%;
-}
 #footer {
   background-color: #99B898;
   clear: both;
