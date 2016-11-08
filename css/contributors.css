@@ -116,6 +116,7 @@ ul {
 #banner h1 {
   margin: 0px;
   padding: 0px;
+  text-align: center; 
 }
 #header {
   background-color:red;
