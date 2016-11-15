@@ -117,6 +117,9 @@ ul {
   padding: 0px;
   color: white; 
 }
+#h1 {
+   color: white; 
+}
 #header {
   background-color:red;
   height: 70px;
