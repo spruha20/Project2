@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background-color: #2a363b;
+    background-color: #2A363B;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -102,24 +102,14 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-#banner {
-  clear: both;
-  background-image: url("https://web.njit.edu/~aza4/public_html/project/Project/img/software.png");
-  height: 500px;
-  background-size: cover;
-  width: 800px;
-  background-repeat: no-repeat;
-  text-align: center;
- 
-}
 #banner h1 {
   margin: 0px;
   padding: 0px;
-  color: white;
-
+  text-align: center;
+  color: white; 
 }
 #header {
-  background-color: #E84A5F;
+  background-color:red;
   height: 70px;
   line-height: 70px;
 }
@@ -143,22 +133,17 @@ ul {
   padding: 0px;
   margin: 0px;
 }
+#about1, #about2 {
+  float:
+  width: 320px;
+  color: white; 
 
-
-		  
-#feature1, #feature2, #feature3{
-  float: left;
-  width: 360px;
-  color: white;
-
-}
-#banner img {
-  width: 100%;
 }
 #footer {
   background-color: #99B898;
   clear: both;
 }
+
 
 
 

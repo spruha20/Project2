@@ -136,7 +136,7 @@ ul {
 }
 
 #Info1, #image1, #image2, #contributors, #contributors2 {
-  float:
+  float:right;
   width: 320px;
   color: white;
 }
