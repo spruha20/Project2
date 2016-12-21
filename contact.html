@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>ABOUT</title>
+        <title>CONTACT</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
       
@@ -29,37 +29,49 @@
 
 	<div id="menu">
        <ul>
-        <li><a href="index.html"><img src = "https://web.njit.edu/~sds39/Project2/img/applelogo.jpg" width="35" height="30"
-	        alt="applelogo.jpg"></a></li>
-	<li><a href="iphone.html">Iphone</a></li>
-	<li><a href="mac.html">Mac</a></li>
-	<li><a href="about1.html">About us</a></li>
-	<li><a href="contact.html">Contact us</a></li>
+       <li><a href="index.html"><img src = "https://web.njit.edu/~sds39/Project2/img/applelogo.jpg" width="35" height="30"
+       alt="applelogo.jpg"></a></li>
+       <li><a href="iphone.html">Iphone</a></li>
+       <li><a href="mac.html">Mac</a></li>
+       <li><a href="about1.html">About us</a></li>
+       <li><a href="contact.html">Contact us</a></li>
        </ul>
        
        </div>
          </div>
        <div id="banner">
-	     
-             <h1>WHERE IT ALL STARTED</h1>
-       </div>
-       <div id="about">
-         <div id="about1">
-	   <img src = "https://web.njit.edu/~sds39/Project2/img/about.jpg" width="900" heigth="350"
-	   alt="about.jpg">
+             <h1>GET IN TOUCH</h1>
+       <img src = "https://web.njit.edu/~sds39/Project2/img/contact.jpg" width= "600"
+       height= "350" 
+       alt= "contact.jpg">
+      
+   
+       <div id="contact">
+         <form id="contact_form" action="#" method="POST" align="right"
+	 enctype="multipart/form-data">
+	 <div class="row">
+	 <label for="name"><strong>Your Name:</label><br />
+	 <input id="name" class="input" name="email" type=text" value="" size="30" /><br
+	 />
 	 </div>
-	    <div id="about2">
-           <h2><u>Located at:</h2></u>
-	   <h3>Main Store- Apple Fifth Avenue: 767 5th Ave, 
-	   New York, NY 10153</h3>
-	   <h3>Phone:(212) 336-1440
-	   Hours: Open today-->12AM–11:59PM</h3>
-
+	 <div class="row">
+	 	<label for="email">Your Email:</label><br />
+		<input id="email" class="input" name="email" type="text" value=""
+		size="30" /><br />
+        </div>
+	<div class="row">
+		<label for="message">Your Message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7"
+		cols="30"></textarea><br/>
+	  </div>
+        
+	<input id="submit_button" type="submit" value="Send Email"/>
+	</form>
+        
 	 </div>
-
 	 </div>
-	   <div id="footer">Spruha Shah</div>
-	   </div>
+ 	 <div id="footer">Spruha Shah</div>
+	 </div>
 
         <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
